@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		4FA5D59A2C00133500EB412E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA5D5992C00133500EB412E /* AppDelegate.swift */; };
 		4FA5D59C2C00133500EB412E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA5D59B2C00133500EB412E /* SceneDelegate.swift */; };
-		4FA5D59E2C00133500EB412E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA5D59D2C00133500EB412E /* ViewController.swift */; };
+		4FA5D59E2C00133500EB412E /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA5D59D2C00133500EB412E /* TableViewController.swift */; };
 		4FA5D5A12C00133500EB412E /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 4FA5D5A02C00133500EB412E /* Base */; };
 		4FA5D5A32C00133600EB412E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FA5D5A22C00133600EB412E /* Assets.xcassets */; };
 		4FA5D5A62C00133600EB412E /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 4FA5D5A52C00133600EB412E /* Base */; };
+		4FA5D5AE2C0045FE00EB412E /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA5D5AD2C0045FE00EB412E /* ItemTableViewCell.swift */; };
+		4FA5D5B02C00465F00EB412E /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA5D5AF2C00465F00EB412E /* AddItemViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4FA5D5962C00133500EB412E /* YuchinanteKadai17.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YuchinanteKadai17.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FA5D5992C00133500EB412E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4FA5D59B2C00133500EB412E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4FA5D59D2C00133500EB412E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4FA5D59D2C00133500EB412E /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		4FA5D5A02C00133500EB412E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4FA5D5A22C00133600EB412E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4FA5D5A52C00133600EB412E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4FA5D5A72C00133600EB412E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FA5D5AD2C0045FE00EB412E /* ItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
+		4FA5D5AF2C00465F00EB412E /* AddItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +62,9 @@
 			children = (
 				4FA5D5992C00133500EB412E /* AppDelegate.swift */,
 				4FA5D59B2C00133500EB412E /* SceneDelegate.swift */,
-				4FA5D59D2C00133500EB412E /* ViewController.swift */,
+				4FA5D59D2C00133500EB412E /* TableViewController.swift */,
+				4FA5D5AF2C00465F00EB412E /* AddItemViewController.swift */,
+				4FA5D5AD2C0045FE00EB412E /* ItemTableViewCell.swift */,
 				4FA5D59F2C00133500EB412E /* Main.storyboard */,
 				4FA5D5A22C00133600EB412E /* Assets.xcassets */,
 				4FA5D5A42C00133600EB412E /* LaunchScreen.storyboard */,
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FA5D59E2C00133500EB412E /* ViewController.swift in Sources */,
+				4FA5D5B02C00465F00EB412E /* AddItemViewController.swift in Sources */,
+				4FA5D5AE2C0045FE00EB412E /* ItemTableViewCell.swift in Sources */,
+				4FA5D59E2C00133500EB412E /* TableViewController.swift in Sources */,
 				4FA5D59A2C00133500EB412E /* AppDelegate.swift in Sources */,
 				4FA5D59C2C00133500EB412E /* SceneDelegate.swift in Sources */,
 			);
