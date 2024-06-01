@@ -69,6 +69,17 @@ class TableViewController: UITableViewController {
         performSegue(withIdentifier: "EditSegue", sender: indexPath)
     }
 
+// 課題17で追加したソースコード（ここから）
+    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+        if editingStyle == .delete {
+            // アイテムを削除する
+            self.items.remove(at: indexPath.row)
+            // テーブルビューの行を削除する
+            tableView.deleteRows(at: [indexPath], with: .automatic)
+        }
+    }
+// 課題17で追加したソースコード（ここまで）
+
     // セグエが実行される直前の処理
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let add = (segue.destination as? UINavigationController)?.topViewController as? AddItemViewController {
